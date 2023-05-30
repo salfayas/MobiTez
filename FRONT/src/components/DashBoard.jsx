@@ -20,7 +20,7 @@ const DashBoard = () => {
       <div className="dashBoard-container">
         <div className="dashBoard-left">
           <div className="dashBoard-towns">
-            <span className="dashBoard-towns-title">Mes Flottes</span>
+            <span className="dashBoard-towns-title">Mes Flottes :</span>
             <input type="text" placeholder="Rechercher une flotte" />
             <div className="list-towns">
               <span>Luxe 12</span>
