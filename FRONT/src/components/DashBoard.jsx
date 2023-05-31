@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import "./DashBoard.css";
 import NavBar from "./NavBar";
 import vague from "../assets/vague.png";
-import pH_Rennes from "../assets/pH_Rennes.png";
 import piezo from "../assets/piezo.png";
 import Rendement_Annuel from "../assets/Rendement_Annuel.png";
 import chart from "../assets/chart.png";
