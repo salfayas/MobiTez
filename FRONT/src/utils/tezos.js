@@ -1,7 +1,7 @@
 // TODO 1 - Setup Tezos Toolkit
-
-import { TezosToolkit } from "@taquito/taquito";
 import { wallet } from "./wallet";
+import { TezosToolkit } from "@taquito/taquito";
+
 
 export const tezos = new TezosToolkit("https://jakartanet.smartpy.io");
 

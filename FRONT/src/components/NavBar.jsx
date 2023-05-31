@@ -2,7 +2,7 @@ import React from "react";
 import "./NavBar.css";
 
 import { Link } from "react-router-dom";
-import { connectwallet, getAccount } from "../utils/wallet";
+import { connectWallet, getAccount } from "../utils/wallet";
 import { useEffect, useState } from "react";
 
 
@@ -13,7 +13,7 @@ const NavBar = () => {
 
   // TODO Complete onConnectWallet function
   const onConnectWallet = async () => {
-    await connectwallet();
+    await connectWallet();
     const activeAccount = await getAccount();
     setAccount(activeAccount);
 
@@ -23,10 +23,10 @@ const NavBar = () => {
       <Link
         to="/"
         className="nav-logo"
-        aria-label="Visiter la page d'accueil de TezEau"
+        aria-label="Visiter la page d'accueil de MobiTez"
         aria-current="page"
       >
-        <span>MobiRent</span>
+        <span>MobiTez</span>
       </Link>
 
       <div className="nav-links">
